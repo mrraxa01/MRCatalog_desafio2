@@ -1,10 +1,11 @@
-import './styles.css';
+import Navbar from "../../components/Navbar";
+import "./styles.css";
 
 const Home = () => {
-    return (
-    <div className='home-container'>
-        <h1>Hello World!</h1>
-    </div>
-);
-}
+  return (
+    <>
+      <Navbar />
+    </>
+  );
+};
 export default Home;
